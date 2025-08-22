@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb - Descubra acomodações</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg width="102" height="32" fill="#ff5a5f">
+                    <path d="M29.4 6.2c-.9-1.6-2.4-2.6-4.1-2.6-1.7 0-3.2 1-4.1 2.6l-8.5 14.7-8.5-14.7c-.9-1.6-2.4-2.6-4.1-2.6s-3.2 1-4.1 2.6l-8.5 14.7c-.6 1-1 2.1-1 3.3 0 3.4 2.7 6.1 6.1 6.1h34c3.4 0 6.1-2.7 6.1-6.1 0-1.2-.4-2.3-1-3.3L29.4 6.2z"/>
+                </svg>
+                <span>airbnb</span>
+            </div>
+            <nav class="nav">
+                <a href="#">Anuncie no Airbnb</a>
+                <a href="#">Cadastre-se</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Descubra acomodações em Brasil</h1>
+                    <p>Seja em chalés, condomínios ou castelos, encontre a sua estada no Airbnb.</p>
+                    
+                    <div class="search-form">
+                        <div class="form-group">
+                            <label>LOCALIZAÇÃO</label>
+                            <select>
+                                <option>Brasil</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>CHECK-IN</label>
+                            <input type="text" placeholder="Insira as datas">
+                        </div>
+                        <div class="form-group">
+                            <label>CHECKOUT</label>
+                            <input type="text" placeholder="Insira as datas">
+                        </div>
+                        <div class="form-group">
+                            <label>HÓSPEDES</label>
+                            <select>
+                                <option>2</option>
+                            </select>
+                        </div>
+                        <button class="search-btn">Buscar</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Piscina com vista">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Aproveite a flexibilidade</h3>
+                    <p>As acomodações com cancelamento flexível facilitam a reagendação da sua reserva se seus planos mudarem.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Tenha as comodidades que você deseja</h3>
+                    <p>Explore dezenas de comodidades adicionais que se encaixam nas suas necessidades, como banheiras de hidromassagem, piscinas e churrasqueiras.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Ler avaliações reais</h3>
+                    <p>Encontre acomodações que você vai adorar com base nas últimas experiências de pessoas que já ficaram lá.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preferred Section -->
+    <section class="preferred">
+        <div class="container">
+            <h2>Preferidos dos hóspedes em Brasil</h2>
+            <p class="section-subtitle">Confira algumas das acomodações que fazem mais sucesso no Airbnb, baseado em avaliações, comentários e confiabilidade.</p>
+            
+            <div class="cards-container">
+                <div class="property-card">
+                    <div class="card-badge">Preferido dos hóspedes</div>
+                    <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Chalé em praia vermelha">
+                    <div class="card-content">
+                        <div class="rating">
+                            <span class="stars">⭐ 4.87 (283)</span>
+                        </div>
+                        <h3>Chalé em praia vermelha no centro</h3>
+                        <p>Chalé Maresia • com vista deslumbrante</p>
+                        <p class="date">7-18 de out.</p>
+                        <p class="price"><strong>R$ 460</strong> por 5 noites</p>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="card-badge">Preferido dos hóspedes</div>
+                    <img src="https://images.pexels.com/photos/2402235/pexels-photo-2402235.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Casa de cúpula">
+                    <div class="card-content">
+                        <div class="rating">
+                            <span class="stars">⭐ 4.98 (276)</span>
+                        </div>
+                        <h3>Casa de cúpula em Gramado</h3>
+                        <p>Domo Superadobe por @highlowbass</p>
+                        <p class="date">28 de set. - 3 de out.</p>
+                        <p class="price"><strong>R$ 1.063</strong> por 5 noites</p>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="card-badge">Preferido dos hóspedes</div>
+                    <img src="https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cabana em Visconde de Mauá">
+                    <div class="card-content">
+                        <div class="rating">
+                            <span class="stars">⭐ 4.97 (39)</span>
+                        </div>
+                        <h3>Cabana em Visconde de Mauá</h3>
+                        <p>Container rústico e casa em Visconde de Mauá</p>
+                        <p class="date">14-19 de out.</p>
+                        <p class="price"><strong>R$ 2.286</strong> por 5 noites</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="discover-more">Descubra mais</button>
+        </div>
+    </section>
+
+    <!-- More Space Section -->
+    <section class="more-space">
+        <div class="container">
+            <h2>Acomodações com mais espaço</h2>
+            <p class="section-subtitle">Encontre casas inteiras com suas comodidades favoritas para uma viagem dos sonhos.</p>
+            
+            <div class="cards-container">
+                <div class="property-card">
+                    <div class="card-badge">Preferido dos hóspedes</div>
+                    <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cabana em Florianópolis">
+                    <div class="card-content">
+                        <div class="rating">
+                            <span class="stars">⭐ 4.98 (145)</span>
+                        </div>
+                        <h3>Cabana em Florianópolis</h3>
+                        <p>Cabana Florianense - Sagid</p>
+                        <p class="guests">3 camas</p>
+                        <p class="date">1-6 de out.</p>
+                        <p class="price"><strong>R$ 732</strong> por 5 noites</p>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="card-badge">Preferido dos hóspedes</div>
+                    <img src="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Condomínio em Bombinhas">
+                    <div class="card-content">
+                        <div class="rating">
+                            <span class="stars">⭐ 4.83 (523)</span>
+                        </div>
+                        <h3>Condomínio em Bombinhas</h3>
+                        <p>3 Apís - Jacuzzi Vista Mar/Piscina - Marinas do</p>
+                        <p class="guests">2 camas</p>
+                        <p class="date">1-6 de out.</p>
+                        <p class="price"><strong>R$ 3.055</strong> por 5 noites</p>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="card-badge">Preferido dos hóspedes</div>
+                    <img src="https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cabana em Urubici">
+                    <div class="card-content">
+                        <div class="rating">
+                            <span class="stars">⭐ 5.0 (104)</span>
+                        </div>
+                        <h3>Cabana em Urubici</h3>
+                        <p>Cabana exclusiva em Urubici com spa e vista top</p>
+                        <p class="guests">2 camas</p>
+                        <p class="date">14-17 de set.</p>
+                        <p class="price"><strong>R$ 2.571</strong> por 5 noites</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="discover-more">Descubra mais</button>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Respostas para suas perguntas</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>O que é o Airbnb e como ele funciona?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>Como faço para usar os filtros de busca?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>Preciso me encontrar com meu anfitrião?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>E se eu precisar cancelar devido a um problema com a acomodação ou o anfitrião?</h3>
+                </div>
+                <div class="faq-item">
+                    <h3>Precisa de mais informações?</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Airbnb</a>
+                <a href="#">Acomodações</a>
+                <a href="#">Brasil</a>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Airbnb, Inc. • Privacidade • Termos • Mapa do site • Informações da empresa</p>
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📷</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
